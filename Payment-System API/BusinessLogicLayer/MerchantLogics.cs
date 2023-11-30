@@ -9,6 +9,10 @@ namespace Payment_System_API.BusinessLogicLayer
     {
         private readonly PaymentContext _dbcontext;
 
+        public MerchantLogics()
+        {
+        }
+
         public MerchantLogics(PaymentContext dbcontext)
         {
             _dbcontext = dbcontext;
